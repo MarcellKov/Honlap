@@ -6,3 +6,13 @@ a:visited{
     text-decoration: none;
     color: black;
 }
+#nev,#suli{
+    text-align: center;
+}
+#gomb{
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 80px;
+    
+}
