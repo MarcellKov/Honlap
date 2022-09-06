@@ -14,9 +14,9 @@ a:visited{
     margin: auto;
     height: 45px;
     width: 80px;
-    position:relative;
-    right: 130px;
-    top:45px
+    position:fixed;
+    left: 585px;
+    
      
 }
 #gomb2{
