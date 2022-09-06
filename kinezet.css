@@ -21,6 +21,18 @@ a:visited{
     
      
 }
+#gomb3{
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 80px;
+    position:fixed;
+    left: 700px;
+    border-radius: 80px;
+    cursor: pointer;
+    
+     
+}
 #gomb2{
     display: block;
     margin: auto;
@@ -32,7 +44,7 @@ a:visited{
     cursor: pointer;
     
 }
-#gomb:hover,#gomb2:hover{
+#gomb:hover,#gomb2:hover,#gomb3:hover{
     width: 100px;
     height: 60px;
     background-color: aliceblue;
