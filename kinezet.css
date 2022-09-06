@@ -14,5 +14,23 @@ a:visited{
     margin: auto;
     height: 45px;
     width: 80px;
+    position:relative;
+    right: 130px;
+    top:45px
+     
+}
+#gomb2{
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 80px;
+    position:relative;
+    left:140px;
+    
+}
+#gomb:hover,#gomb2:hover{
+    width: 100px;
+    height: 60px;
+    background-color: aliceblue;
     
 }
