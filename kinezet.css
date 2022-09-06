@@ -16,6 +16,7 @@ a:visited{
     width: 80px;
     position:fixed;
     left: 585px;
+    border-radius: 80px;
     
      
 }
@@ -26,6 +27,7 @@ a:visited{
     width: 80px;
     position:relative;
     left:140px;
+    border-radius: 80px;
     
 }
 #gomb:hover,#gomb2:hover{
