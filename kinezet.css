@@ -14,8 +14,8 @@ a:visited{
     margin: auto;
     height: 45px;
     width: 80px;
-    position:fixed;
-    left: 585px;
+    
+    float: left;
     border-radius: 80px;
     cursor: pointer;
     
@@ -38,8 +38,8 @@ a:visited{
     margin: auto;
     height: 45px;
     width: 80px;
-    position:relative;
-    left:140px;
+    float: right;
+    
     border-radius: 80px;
     cursor: pointer;
     
@@ -49,4 +49,13 @@ a:visited{
     height: 60px;
     background-color: aliceblue;
     
+}
+table {
+    border: 5px solid black;
+}
+td{
+    border: 5px solid black;
+}
+tr{
+    border: 5px solid black;
 }
