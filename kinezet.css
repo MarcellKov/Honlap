@@ -14,12 +14,9 @@ a:visited{
     margin: auto;
     height: 45px;
     width: 80px;
-    
     float: left;
     border-radius: 80px;
     cursor: pointer;
-    
-     
 }
 #gomb3{
     display: block;
@@ -30,8 +27,6 @@ a:visited{
     left: 700px;
     border-radius: 80px;
     cursor: pointer;
-    
-     
 }
 #gomb2{
     display: block;
@@ -39,23 +34,31 @@ a:visited{
     height: 45px;
     width: 80px;
     float: right;
-    
     border-radius: 80px;
     cursor: pointer;
-    
 }
 #gomb:hover,#gomb2:hover,#gomb3:hover{
-    width: 100px;
-    height: 60px;
-    background-color: aliceblue;
+    background-color: rgb(124, 168, 206);
+}
+#tablazat table {
+    border: 0,1px solid white;
+    border-radius: 3%;
+    background-color: white;
+    margin: auto;
+    margin-top: 15%;
+}
+#tablazat td{
+    background-color: white;  
+}
+#tablazat tr{
+    background-color: white;
+}
+#hatter{ 
+    background-color: rgb(84, 124, 84);
+}
+#szoveg{
+    text-align: center;
+    border-bottom: 1px solid grey;
     
-}
-table {
-    border: 5px solid black;
-}
-td{
-    border: 5px solid black;
-}
-tr{
-    border: 5px solid black;
+    
 }
