@@ -28,20 +28,16 @@ a:visited{
     border-radius: 80px;
     cursor: pointer;
 }
-#gomb2{
+#githublogo{
     display: block;
     margin: auto;
-    height: 45px;
-    width: 80px;
     float: right;
-    border-radius: 80px;
-    cursor: pointer;
 }
 #gomb:hover,#gomb2:hover,#gomb3:hover{
     background-color: rgb(124, 168, 206);
 }
 #tablazat table {
-    border: 30px solid white;
+    border: 45px solid white;
     border-radius: 2%;
     background-color: white;
     margin: auto;
@@ -59,6 +55,7 @@ a:visited{
 #szoveg{
     text-align: center;
     position: relative;
+    font-family: sans-serif;
     
 }
 #szoveg::before{
