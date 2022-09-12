@@ -23,10 +23,10 @@ a:visited{
     margin: auto;
     height: 45px;
     width: 80px;
-    position:fixed;
-    left: 700px;
     border-radius: 80px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 #githublogo{
     display: block;
