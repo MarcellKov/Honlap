@@ -42,6 +42,7 @@ a:visited{
     background-color: white;
     margin: auto;
     margin-top: 15%;
+    
 }
 #tablazat td{
     background-color: white;  
@@ -66,4 +67,22 @@ a:visited{
   height  : 1px;
   width   : 100%;  
   border-bottom:1px solid gray;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
 }
