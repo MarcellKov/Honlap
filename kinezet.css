@@ -6,34 +6,19 @@ a:visited{
     text-decoration: none;
     color: black;
 }
-#nev,#suli{
-    text-align: center;
-}
 #gomb{
-    display: block;
-    margin: auto;
     height: 45px;
     width: 80px;
-    float: left;
     border-radius: 80px;
     cursor: pointer;
 }
 #gomb3{
-    display: block;
-    margin: auto;
     height: 45px;
-    width: 80px;
+    width: 103px;
     border-radius: 80px;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
 }
-#githublogo{
-    display: block;
-    margin: auto;
-    float: right;
-}
-#gomb:hover,#gomb2:hover,#gomb3:hover{
+#gomb:hover,#gomb3:hover{
     background-color: rgb(124, 168, 206);
 }
 #tablazat table {
@@ -50,9 +35,6 @@ a:visited{
 #tablazat tr{
     background-color: white;
 }
-#hatter{ 
-    background-color: rgb(84, 124, 84);
-}
 #szoveg{
     text-align: center;
     position: relative;
@@ -67,6 +49,10 @@ a:visited{
   height  : 1px;
   width   : 100%;  
   border-bottom:1px solid gray;
+}
+#flexes{
+    display: flex;
+    justify-content: space-between;
 }
 .back-video{
     position: absolute;
@@ -88,4 +74,12 @@ a:visited{
 }
 #lejjebb{
     margin-top: 6%;
+}
+#tablazat2 table {
+    border: 45px solid white;
+    border-radius: 2%;
+    background-color: white;
+    margin: auto;
+    margin-top: 15%;
+    
 }
