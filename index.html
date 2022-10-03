@@ -9,8 +9,12 @@
     <title>Kovács Marcell</title>
     <link rel="stylesheet" href="kinezet.css">
     <link rel="icon" type="image/x-icon" href="sg.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+    <div class="animacio">
+        <span class="forgas"><span class="kitoltes"></span></span>
+    </div>
     <video autoplay muted loop class="back-video">
         <source src="sagvaris.mp4" type="video/mp4">
     </video>
@@ -39,10 +43,13 @@
     </td>
     </tr>
     
-    
+   
     </table>
     </div>
     </div>
+    <script>$("document").ready(function(){
+        $(".animacio").fadeOut("slow");
+    });</script>
     
 </body>
 </html>
