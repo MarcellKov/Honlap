@@ -9,6 +9,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="javascript.js"></script>
 	</head>
+	
 
 
 	<body style="background-color: aqua;">
@@ -132,11 +133,13 @@
 		<button type="button" onclick="ofo()" id="gomb3">Osztályfőnöki órák kijelölése</button>
 		<button type="button" onclick="vissza()" id="gomb3">Kijelölések visszavonása</button></div>
 	    
-	    <script>
-			$("document").ready(function(){
-        $(".animacio").fadeOut("slow");})
-	   </script>
+	    <script>$("document").ready(function(){
+			$("#body").hide();
+			$(".animacio").delay(2000).fadeOut("slow");
+			$("#body").delay(3150).fadeIn("slow"); 
+		});</script>
 	    
-  
+	
 	</body>
+
 </html>
