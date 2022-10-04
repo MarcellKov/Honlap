@@ -1,4 +1,3 @@
-
 function matek(){
     document.getElementById("matek1").style.backgroundColor="red";
     document.getElementById("matek2").style.backgroundColor="red";
